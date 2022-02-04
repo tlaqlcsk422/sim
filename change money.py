@@ -14,3 +14,4 @@ change_100 = (change_money % 500) // 100
 print(f"1000원 지폐의 수 => {change_1000}")
 print(f"500원 동전의 수 => {change_500}")
 print(f"100원 동전의 수 => {change_100}")
+
