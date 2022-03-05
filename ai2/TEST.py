@@ -105,3 +105,9 @@ c = 0
 ##정렬
 for i in range(N):
     c += A[i] * B[i]
+
+while True:
+    player = int(input("숫자를 입력하세요: "))
+    if player == 1:
+        print("끝!")
+        break
