@@ -70,12 +70,12 @@ import random
 <getRandomNum() 함수를 호출하여 반환값을 num 변수에 할당하기>
 print(num)
 '''
-# import random
-#
-# def r_num():
-#     return random.randint(1, 100)
-#
-# print(r_num())
+import random
+
+def r_num():
+    return random.randint(1, 100)
+
+print(r_num())
 
 
 ## 연습문제4: 입력O, 출력O인 함수
@@ -136,8 +136,9 @@ turtle.mainloop()
 ###연습문제
 ##문자열 a, b, c를 입력받아서 두개를 합쳐서 print해라
 
-# def add(a, b, c):
-#     print(a,b,c,sep="****",end="")
-#     # return a+b+c
-# add("사과","바나나","망고")
-# add("딸기","포도","메론")
+def add(a, b, c):
+    print(a,b,c,sep="****",end=" ")
+    # return a+b+c
+
+add("사과","바나나","망고")
+add("딸기","포도","메론")

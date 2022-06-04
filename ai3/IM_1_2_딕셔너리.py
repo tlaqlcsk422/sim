@@ -41,11 +41,11 @@ print(youtuber[""])
 ## 연습문제3: 딕셔너리 제어3-삭제하기
 ## : 자신이 두번째로 좋아하는 youtuber를 딕셔너리에서 삭제해보자
 
-# del youtuber["우주하마"]                             # 딕셔너리 값 지우기 명령 수행
-# print(youtuber)
-#
-# youtuber["백종원의 요리비책"] = 6000000
-# print(youtuber)
+del youtuber["우주하마"]                             # 딕셔너리 값 지우기 명령 수행
+print(youtuber)
+
+youtuber["백종원의 요리비책"] = 6000000
+print(youtuber)
 
 ## 연습문제4: 딕셔너리 관련 함수
 ## .items(), .keys(), .values()의 결과와 데이터 타입을 출력해보자
@@ -54,3 +54,6 @@ print(youtuber[""])
 print(youtuber.items())     # .items(): key와 value 쌍을 반환하는 함수
 print(youtuber.keys())     # .keys(): 원소가 key로 이루어진 데이터를 포함하는 list를 반환하는 함수
 print(youtuber.values())     # .values(): 원소가 value로 이루어진 데이터를 포함하는 list를 반환하는 함수
+
+
+
